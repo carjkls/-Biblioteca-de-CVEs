@@ -1,0 +1,17 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: biblioteca_cves
+    ports:
+      - "5432:5432"
+    volumes:
+      # roda 01_schema.sql e 02_seed.sql automaticamente na primeira subida
+      - ./sql/01_schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - ./sql/02_seed.sql:/docker-entrypoint-initdb.d/02_seed.sql
+      - dados:/var/lib/postgresql/data
+
+volumes:
+  dados:

@@ -1,0 +1,47 @@
+{
+  "name": "CVEs salvas",
+  "type": "personal_chat",
+  "id": 123456789,
+  "messages": [
+    {
+      "id": 101,
+      "type": "message",
+      "date": "2025-03-24T09:12:00",
+      "from": "Sorenus",
+      "text": [
+        "🚨 Next.js: bypass de autorização no middleware ",
+        {"type": "bold", "text": "CVE-2025-29927"},
+        "\nCVSS: 9.1\nAtualizar para 15.2.3 / 14.2.25. ",
+        {"type": "text_link", "text": "NVD", "href": "https://nvd.nist.gov/vuln/detail/CVE-2025-29927"}
+      ]
+    },
+    {
+      "id": 102,
+      "type": "message",
+      "date": "2024-11-14T18:40:00",
+      "from": "Sorenus",
+      "text": "PostgreSQL: SET ROLE / SET SESSION AUTHORIZATION resetados indevidamente - CVE-2024-10978 CVSS: 4.2 https://nvd.nist.gov/vuln/detail/CVE-2024-10978"
+    },
+    {
+      "id": 103,
+      "type": "message",
+      "date": "2024-02-01T11:00:00",
+      "from": "Sorenus",
+      "text": "Docker / runc 'Leaky Vessels': escape de container via WORKDIR\nCVE-2024-21626 CVSS: 8.6\nhttps://nvd.nist.gov/vuln/detail/CVE-2024-21626"
+    },
+    {
+      "id": 104,
+      "type": "message",
+      "date": "2025-01-10T08:00:00",
+      "from": "Sorenus",
+      "text": "Lembrete: revisar CVE-2021-44228 nos serviços legados"
+    },
+    {
+      "id": 105,
+      "type": "service",
+      "date": "2025-01-10T08:01:00",
+      "action": "pin_message",
+      "text": ""
+    }
+  ]
+}
